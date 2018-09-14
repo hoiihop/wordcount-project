@@ -1,0 +1,8 @@
+<p><h1>Counter</h1>      <a href="{% url 'about' %}">About</a></p>
+
+<form action="{% url 'count' %}" method="GET">
+    <textarea name="fulltext" cols="40" rows="10"></textarea>
+    <br>
+    <input type="submit" value="Count!">
+    <button type="reset">Clear</button>
+</form>
